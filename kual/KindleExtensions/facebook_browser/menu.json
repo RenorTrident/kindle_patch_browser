@@ -1,0 +1,27 @@
+{
+  "items": [
+    {
+      "action": "start_menu",
+      "label": "Facebook Browser",
+      "priority": 1
+    },
+    {
+      "action": "run_script",
+      "label": "Launch Facebook",
+      "script": "script.sh",
+      "priority": 1
+    },
+    {
+      "action": "run_script",
+      "label": "Settings",
+      "script": "settings.sh",
+      "priority": 2
+    },
+    {
+      "action": "run_script",
+      "label": "About",
+      "script": "about.sh",
+      "priority": 3
+    }
+  ]
+}
